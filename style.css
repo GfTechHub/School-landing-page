@@ -62,3 +62,104 @@ body {
 footer {
   font-size: 0.9rem;
 }
+/* ===== Change 4: Brand & Colors ===== */
+
+/* Google Fonts (already linked in HTML head)
+   Example: Poppins for headings, Open Sans for body */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #0d3b66; /* Deep professional blue */
+}
+
+.navbar {
+  background-color: #0d3b66 !important; /* Dark blue navbar */
+}
+
+.navbar-brand, 
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #f4d35e !important; /* Gold accent */
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  background: url('images/school-hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(13, 59, 102, 0.7); /* Blue overlay */
+}
+
+.hero h1 {
+  position: relative;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hero p {
+  position: relative;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0d3b66;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #144c8c;
+}
+
+.btn-accent {
+  background-color: #f4d35e;
+  color: #0d3b66;
+  border: none;
+}
+
+.btn-accent:hover {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+/* Section Spacing */
+section {
+  padding: 60px 0;
+}
+
+footer {
+  background-color: #0d3b66;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}.navbar-brand img {
+  max-height: 50px;
+}.navbar-brand span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
