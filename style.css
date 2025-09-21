@@ -284,4 +284,6 @@ header#hero::before {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.55);
+}header#hero {
+  background: url("../images/hero-school.jpg") center/cover no-repeat;
 }
