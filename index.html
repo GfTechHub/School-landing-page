@@ -15,28 +15,32 @@
 
 <nav class="navbar navbar-expand-lg">
   <div class="container">
-    <!-- Logo -->
-<a class="navbar-brand d-flex align-items-center" href="#">
-  <img src="images/logo.png" alt="School Logo" height="50" class="me-2">
-  <span class="fw-bold text-white fs-4">Borcelle Academy</span>
-</a>
+    <!-- Logo + School Name -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo.png" alt="School Logo" height="50" class="me-2">
+      <span class="fw-bold text-white fs-4">Borcelle Academy</span>
+    </a>
     
-    <!-- Toggler (for mobile view) -->
+    <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     
-    <!-- Nav Links -->
+    <!-- Nav Links + CTA -->
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-3">
+          <a href="#apply" class="btn btn-accent">Apply Now</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
+
   <!-- HERO -->
   <header id="hero" class="text-white d-flex align-items-center">
     <div class="overlay"></div>
@@ -55,12 +59,16 @@
   </header>
 
   <!-- ABOUT -->
-  <section id="about" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="h3 mb-3">About Borcelle Academy</h2>
-      <p class="text-muted">Borcelle Academy offers a balanced, student-centred education. We focus on academics, character and creativity. Located in the heart of the city with modern facilities and experienced teachers.</p>
-    </div>
-  </section>
+<section id="about" class="bg-light">
+  <div class="container text-center">
+    <h2>About Us</h2>
+    <p class="lead mt-3">
+      Borcelle Academy is committed to academic excellence, nurturing creativity,
+      and preparing students for global opportunities. We combine tradition with innovation
+      to shape tomorrow’s leaders.
+    </p>
+  </div>
+</section>
 
   <!-- PROGRAMS / COURSES -->
   <section id="programs" class="py-5">
@@ -95,20 +103,31 @@
         </div>
 
         <!-- Program card 3 -->
-        <div class="col-md-6 col-lg-4">
-          <article class="card h-100">
-            <div class="card-body">
-              <h3 class="card-title h5">Senior Secondary</h3>
-              <p class="card-text text-muted">Focused tracks for sciences, arts and commerce with exam preparation support.</p>
-            </div>
-            <div class="card-footer bg-transparent border-top-0">
-              <a href="#contact" class="btn btn-sm btn-outline-primary">Apply</a>
-            </div>
-          </article>
+<section id="programs">
+  <div class="container text-center">
+    <h2>Our Programs</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm p-3">
+          <h4>Primary School</h4>
+          <p>Building strong foundations in literacy, numeracy, and creativity.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm p-3">
+          <h4>Secondary School</h4>
+          <p>Developing critical thinking and leadership for higher education.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm p-3">
+          <h4>Extra-Curricular</h4>
+          <p>Sports, arts, and clubs to inspire holistic growth.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- TESTIMONIALS -->
   <section id="testimonials" class="py-5 bg-white">
