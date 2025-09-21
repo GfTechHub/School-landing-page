@@ -241,3 +241,25 @@ footer a:hover {
 #testimonials p {
   font-style: italic;
   color: #555;
+.program-card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover img {
+  transform: scale(1.05);
+}
+
+.program-card {
+  border-radius: 0.6rem;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
