@@ -263,3 +263,25 @@ footer a:hover {
   transform: translateY(-5px);
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
 }
+/* Section background colors */
+.bg-section {
+  background-color: #f0f7ff; /* light blue tint */
+}
+
+.bg-section-alt {
+  background-color: #f9f5ff; /* soft lavender tint */
+}
+
+/* Hero background overlay tweak */
+header#hero {
+  position: relative;
+  background: url("../images/hero-school.jpg") center/cover no-repeat;
+  min-height: 90vh;
+}
+
+header#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
