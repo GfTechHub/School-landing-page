@@ -228,4 +228,16 @@ footer a:hover {
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
   }
+}#testimonials .card {
+  border-radius: 0.6rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+#testimonials .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+#testimonials p {
+  font-style: italic;
+  color: #555;
