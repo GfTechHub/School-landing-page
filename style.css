@@ -281,7 +281,7 @@ footer a:hover {
 /* Hero background overlay tweak */
 header#hero {
   position: relative;
-  background: url("../images/hero.jpg") center/cover no-repeat;
+  background: url("../images/school hero.jpg") center/cover no-repeat;
   min-height: 90vh;
 }
 
